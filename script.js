@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const closeBtn = document.querySelector('.close-btn');
     const homeBtn = document.querySelector('.home');
     const indexBtn = document.querySelector('.index');
-    const indexList = document.querySelector('.index-panel'); // Fix here
+    const indexList = document.querySelector('.index-panel'); 
     const fixedHeaderHeight = document.querySelector('.fixed-header').offsetHeight;
 
     const isPhoneViewport = () => {
@@ -17,13 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let jsonData = null;
 
-    // Initially hide the index list
     indexList.style.display = 'none';
 
-    // Initially set the image gallery top to 0
     imageContainer.style.top = '0';
 
-    // Function to display images
     function displayImages() {
         if (jsonData) {
             imageContainer.innerHTML = '';
@@ -53,9 +50,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     const prevSelected = document.querySelector('.selected-img');
                     if (prevSelected) {
                         prevSelected.classList.remove('selected-img');
+                        prevSelected.classList.remove('green-border'); // Remove green border from previously selected image
                     }
 
                     img.classList.add('selected-img');
+                    img.classList.add('green-border'); // Add green border to clicked image
 
                     selectedImg.src = img.src;
                     title.textContent = img.parentElement.getAttribute('data-title');
@@ -83,18 +82,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     document.querySelectorAll('.gallery-img').forEach(colImg => {
                         colImg.parentElement.style.width = isPhoneViewport() ? '25vw' : '12.5vw';
                     });
-
-                    // Add green border to the clicked image
-                    img.classList.add('green-border');
                 });
             });
         }
     }
 
-    // Function to display index list
     function displayIndexList() {
         if (jsonData) {
-            indexList.innerHTML = ''; // Clear existing content
+            indexList.innerHTML = ''; 
             jsonData.forEach((item, index) => {
                 const row = document.createElement('div');
                 row.classList.add('index-row');
@@ -120,34 +115,30 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Fetch JSON data
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
             jsonData = data;
-            displayImages(); // Display images initially
-            displayIndexList(); // Display index list initially
+            displayImages(); 
+            displayIndexList(); 
         })
         .catch(error => {
             console.error('Error fetching data:', error);
         });
 
-    // Event listener for index button
     indexBtn.addEventListener('click', () => {
-        // Toggle display of index list
         if (indexList.style.display === 'none') {
             indexList.style.display = 'block';
-            indexList.style.top = `calc(10vh + ${fixedHeaderHeight}px)`; // Set top position when index is displayed
-            imageContainer.style.display = 'none'; // Hide image container when index is displayed
+            indexList.style.top = `calc(10vh + ${fixedHeaderHeight}px)`; 
+            imageContainer.style.display = 'none'; 
         } else {
             indexList.style.display = 'none';
-            imageContainer.style.display = 'grid'; // Show image container when index is hidden
+            imageContainer.style.display = 'grid'; 
         }
-        // Hide any selected image and clear info panel content
         const prevSelected = document.querySelector('.selected-img');
         if (prevSelected) {
             prevSelected.classList.remove('selected-img');
-            prevSelected.classList.remove('green-border'); // Remove green border from the previous selected image
+            prevSelected.classList.remove('green-border'); // Remove green border from previously selected image
         }
         selectedImg.src = '';
         title.textContent = '';
@@ -155,12 +146,17 @@ document.addEventListener('DOMContentLoaded', function () {
         bodyText.textContent = '';
     });
 
-    // Event listener for home button
     homeBtn.addEventListener('click', () => {
-        location.reload(); // Reload the page
+        location.reload(); 
     });
 
     closeBtn.addEventListener('click', () => {
+        const prevSelected = document.querySelector('.selected-img');
+        if (prevSelected) {
+            prevSelected.classList.remove('selected-img');
+            prevSelected.classList.remove('green-border'); // Remove green border from previously selected image
+        }
+    
         if (isPhoneViewport()) {
             infoPanel.style.top = '-100vh';
             infoPanel.style.transition = 'top 4s ease';
@@ -178,13 +174,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 imageContainer.style.width = '100vw';
             }, 0);
         }
-
-
-        const prevSelected = document.querySelector('.selected-img');
-    if (prevSelected) {
-        prevSelected.classList.remove('green-border');
-    }
-});
     });
-    
+});
 
