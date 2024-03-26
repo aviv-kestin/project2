@@ -1,0 +1,336 @@
+[
+    {
+      "id": 1,
+      "imageUrl": "image1.jpg",
+      "title": "106 e 7th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod magna et mattis luctus."
+    },
+    {
+      "id": 2,
+      "imageUrl": "image2.jpg",
+      "title": "St. Stanislaus Bishop and Martyr's Church",
+      "subtitle": "East Village, NY",
+      "bodyText": "101 e 7th st"
+    },
+    {
+      "id": 3,
+      "imageUrl": "image3.jpg",
+      "title": "93 e 7th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+       
+    {
+      "id": 39,
+      "imageUrl": "image29pt3.jpg",
+      "title": "Village East Cinemas",
+      "subtitle": "East Village, NY",
+      "bodyText": "181 2nd ave"
+    },
+    {
+      "id": 4,
+      "imageUrl": "image4.jpg",
+      "title": "85 e 7th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 5,
+      "imageUrl": "image5.jpg",
+      "title": "74 e 7th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 6,
+      "imageUrl": "image6.jpg",
+      "title": "59 e 7th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 7,
+      "imageUrl": "image7.jpg",
+      "title": "116 2nd ave",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 8,
+      "imageUrl": "image8.jpg",
+      "title": "88 2nd ave",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 9,
+      "imageUrl": "image9.jpg",
+      "title": "101 2nd ave",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 10,
+      "imageUrl": "image10.jpg",
+      "title": "240 e 6th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 11,
+      "imageUrl": "image11.jpg",
+      "title": "236 e 6th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 12,
+      "imageUrl": "image12.jpg",
+      "title": "228 e 6th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 13,
+      "imageUrl": "image13.jpg",
+      "title": "225 e 6th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 40,
+      "imageUrl": "imageuk.jpg",
+      "title": "n/a",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 14,
+      "imageUrl": "image14.jpg",
+      "title": "41 cooper square",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 15,
+      "imageUrl": "image15.jpg",
+      "title": "First Ukrainian Assembly of God",
+      "subtitle": "East Village, NY",
+      "bodyText": "59 cooper sq"
+    },
+    {
+      "id": 16,
+      "imageUrl": "image16.jpg",
+      "title": "Foundation Building",
+      "subtitle": "East Village, NY",
+      "bodyText": "50 Astor pl"
+    },
+    {
+      "id": 37,
+      "imageUrl": "image24pt2.jpg",
+      "title": "145 2nd ave",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 17,
+      "imageUrl": "image17.jpg",
+      "title": "11 e 7th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 18,
+      "imageUrl": "image18.jpg",
+      "title": "St. George Ukrainian Catholic Church",
+      "subtitle": "East Village, NY",
+      "bodyText": "16 e 7th st"
+    },
+    {
+      "id": 19,
+      "imageUrl": "image19.jpg",
+      "title": "Hebrew Actors Union",
+      "subtitle": "East Village, NY",
+      "bodyText": "31 e 7th st"
+    },
+    {
+      "id": 20,
+      "imageUrl": "image20.jpg",
+      "title": "29 e 7th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 21,
+      "imageUrl": "image21.jpg",
+      "title": "46 e 7th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 22,
+      "imageUrl": "image22.jpg",
+      "title": "141 2nd ave",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 23,
+      "imageUrl": "image23.jpg",
+      "title": "137 2nd ave",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 24,
+      "imageUrl": "image24.jpg",
+      "title": "145 2nd ave",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 25,
+      "imageUrl": "image25.jpg",
+      "title": "128 Styvesant pl",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    
+      {
+        "id": 26,
+        "imageUrl": "image26.jpg",
+        "title": "121 Styvesant pl",
+        "subtitle": "Image 1 Subtitle",
+        "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod magna et mattis luctus."
+      },
+      {
+        "id": 27,
+        "imageUrl": "image27.jpg",
+        "title": "48 Styvesant pl",
+        "subtitle": "East Village, NY",
+        "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+      },
+      {
+        "id": 28,
+        "imageUrl": "image28.jpg",
+        "title": "166 2nd ave",
+        "subtitle": "East Village, NY",
+        "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+      },
+      {
+        "id": 29,
+        "imageUrl": "image29.jpg",
+        "title": "Village East Cinemas",
+        "subtitle": "East Village, NY",
+        "bodyText": "181 2nd ave"
+      },
+      {
+        "id": 30,
+        "imageUrl": "image30.jpg",
+        "title": "229 e 12th st",
+        "subtitle": "East Village, NY",
+        "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+      },
+      {
+        "id": 31,
+        "imageUrl": "image31.jpg",
+        "title": "232 e 12th st",
+        "subtitle": "East Village, NY",
+        "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+      },
+      {
+        "id": 38,
+        "imageUrl": "image29pt2.jpg",
+        "title": "Village East Cinemas",
+        "subtitle": "East Village, NY",
+        "bodyText": "181 2nd ave"
+      },
+      {
+        "id": 41,
+        "imageUrl": "imageuk2.jpg",
+        "title": "n/a",
+        "subtitle": "East Village, NY",
+        "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+      },
+      {
+        "id": 32,
+        "imageUrl": "image32.jpg",
+        "title": "184 2nd ave",
+        "subtitle": "East Village, NY",
+        "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+      },
+      {
+        "id": 42,
+        "imageUrl": "imageukrcath2.jpg",
+        "title": "St. George Ukrainian Catholic Church",
+        "subtitle": "East Village, NY",
+        "bodyText": "16 e 7th st"
+      },
+      {
+        "id": 33,
+        "imageUrl": "image33.jpg",
+        "title": "307 e 12th st",
+        "subtitle": "East Village, NY",
+        "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+      },
+      {
+        "id": 34,
+        "imageUrl": "image34.jpg",
+        "title": "303 e 12th st",
+        "subtitle": "East Village, NY",
+        "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+      },
+      
+      {
+        "id": 35,
+        "imageUrl": "image35.jpg",
+        "title": "327 e 12th st",
+        "subtitle": "East Village, NY",
+        "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+      },
+      {
+        "id": 36,
+        "imageUrl": "image36.jpg",
+        "title": "325 e 12th st",
+        "subtitle": "East Village, NY",
+        "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+      {
+        "id": 41,
+        "imageUrl": "imageuk2.jpg",
+        "title": "n/a",
+        "subtitle": "East Village, NY",
+        "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+      }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ]

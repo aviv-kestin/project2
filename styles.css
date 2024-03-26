@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: rgb(156, 181, 190);
+  color: white
+}
+
+
+
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(156, 181, 190);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+}
+
+.btn {
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 5vh;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  padding: 0;
+  margin-top: 10vh; /* Adjusted to respect fixed-header */
+  margin-bottom: 0; /* Initial margin set to 0 */
+  transition: margin 2s ease; /* Added transition for smooth movement */
+}
+
+.image-container-shifted {
+  margin-top: 50vh; /* Adjusted margin when an image is clicked */
+}
+
+.gallery-img-wrapper {
+  position: relative;
+  width: 25vw;
+  margin-bottom: -0.5vh;
+  transition: width 2s ease, height 1s;
+}
+
+.gallery-img-wrapper.overlap {
+  transform: scale(1.05); /* Increase the size of the image */
+  z-index: 2; /* Ensure images with overlapping effect appear above regular images */
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+}
+
+.green-border {
+  border: .5vw solid rgb(103, 226, 103);
+  z-index: 4;
+  position: relative; /* Ensure the position is set to relative or higher */
+}
+
+.info-panel {
+  position: fixed;
+  top: 10vh; /* Adjusted to respect fixed-header */
+  left: -50vw;
+  width: 50vw;
+  height: 100vh;
+  background-color: rgb(156, 181, 190);
+  z-index: 1;
+  overflow-y: auto;
+  transition: left 2s ease;
+}
+
+.info-content {
+  text-align: center;
+  overflow-y: auto;
+}
+
+.info-content img {
+  max-height: 60vh; /* Added max-height for images in the info panel */
+  width: auto; /* Added width auto */
+}
+
+.close-btn {
+  position: absolute;
+  top: 3vh;
+  right: 3vw;
+  cursor: pointer;
+  border: none;
+  
+}
+
+
+
+.index-panel {
+  margin-top: 10vh; /* Set top position */
+}
+
+@media only screen and (max-width: 430px) and (max-height: 932px) {
+  .info-panel {
+    top: -50vh; /* Initially off-screen */
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(156, 181, 190);
+    z-index: 5;
+    overflow-y: auto;
+    transition: top 2s ease; /* Added transition for smooth appearance */
+  }
+
+  .image-container {
+    transition: transform 2s ease; /* Added transition for smooth movement */
+    margin-bottom: 0; /* Reset margin */
+  }
+
+  .gallery-img-wrapper {
+    width: 25vw; /* Adjusted width for each image */
+  }
+}
