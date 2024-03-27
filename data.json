@@ -120,13 +120,7 @@
       "subtitle": "East Village, NY",
       "bodyText": "50 Astor pl"
     },
-    {
-      "id": 37,
-      "imageUrl": "image24pt2.jpg",
-      "title": "145 2nd ave",
-      "subtitle": "East Village, NY",
-      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
-    },
+    
     {
       "id": 17,
       "imageUrl": "image17.jpg",
@@ -173,6 +167,13 @@
       "id": 22,
       "imageUrl": "image22.jpg",
       "title": "141 2nd ave",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+    {
+      "id": 37,
+      "imageUrl": "image24pt2.jpg",
+      "title": "145 2nd ave",
       "subtitle": "East Village, NY",
       "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
     },
