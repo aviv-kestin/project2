@@ -77,13 +77,7 @@
       "subtitle": "East Village, NY",
       "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
     },
-    {
-      "id": 11,
-      "imageUrl": "image11.jpg",
-      "title": "236 e 6th st",
-      "subtitle": "East Village, NY",
-      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
-    },
+
     {
       "id": 12,
       "imageUrl": "image12.jpg",
@@ -137,6 +131,13 @@
       "id": 17,
       "imageUrl": "image17.jpg",
       "title": "11 e 7th st",
+      "subtitle": "East Village, NY",
+      "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
+    },
+     {
+      "id": 11,
+      "imageUrl": "image11.jpg",
+      "title": "236 e 6th st",
       "subtitle": "East Village, NY",
       "bodyText": "Ut porttitor nunc sit amet felis maximus, et ultrices ligula venenatis."
     },
